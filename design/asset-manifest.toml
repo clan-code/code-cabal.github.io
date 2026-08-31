@@ -1,0 +1,79 @@
+# Activos creados a partir del concept board generado con ChatGPT Image Creator
+# el 30 de agosto de 2026. Los recortes fueron optimizados localmente a WebP.
+
+[[asset]]
+id = "hero-code"
+file = "public/images/generated/hero-code.webp"
+kind = "generated-and-cropped"
+usage = "Hero de escritorio"
+alt_es = "Un aventurero nuevo se acerca a los miembros del guild CODE"
+
+[[asset]]
+id = "hero-code-mobile"
+file = "public/images/generated/hero-code-mobile.webp"
+kind = "generated-and-cropped"
+usage = "Hero móvil y portada de guía"
+alt_es = "Un aventurero avanza hacia una hermandad"
+
+[[asset]]
+id = "academy"
+file = "public/images/generated/academy.webp"
+kind = "generated-and-cropped"
+usage = "Academia y FAQ"
+alt_es = "Una sala de conocimiento de fantasía tecnológica"
+
+[[asset]]
+id = "recruitment"
+file = "public/images/generated/recruitment.webp"
+kind = "generated-and-cropped"
+usage = "Empieza aquí y Reclutamiento"
+alt_es = "Un camino se abre entre montañas de fantasía"
+
+[[asset]]
+id = "security"
+file = "public/images/generated/security.webp"
+kind = "generated-and-cropped"
+usage = "Seguridad"
+alt_es = "Un escudo digital con candado"
+
+[[asset]]
+id = "emblem-code"
+file = "public/images/generated/emblem-code.webp"
+kind = "generated-and-cropped"
+usage = "Marca del guild"
+alt_es = "Emblema original rojo y negro del guild CODE"
+
+[[asset]]
+id = "rank-core"
+file = "public/images/generated/rank-core.webp"
+kind = "generated-and-cropped"
+usage = "Rango CODE Core"
+alt_es = "Emblema violeta de CODE Core"
+
+[[asset]]
+id = "rank-senior"
+file = "public/images/generated/rank-senior.webp"
+kind = "generated-and-cropped"
+usage = "Rango CODE Senior"
+alt_es = "Emblema dorado de CODE Senior"
+
+[[asset]]
+id = "rank-junior"
+file = "public/images/generated/rank-junior.webp"
+kind = "generated-and-cropped"
+usage = "Rango CODE Junior"
+alt_es = "Emblema verde de CODE Junior"
+
+[[asset]]
+id = "rank-alts"
+file = "public/images/generated/rank-alts.webp"
+kind = "generated-and-cropped"
+usage = "Grupo Alts"
+alt_es = "Emblema azul del grupo Alts"
+
+[[asset]]
+id = "guild-screenshots"
+file = "public/images/gallery/"
+kind = "user-provided-screenshots"
+usage = "Galería histórica del guild"
+alt_es = "Capturas de la creación y organización de CODE"

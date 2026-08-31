@@ -1,0 +1,21 @@
+mod academy;
+mod faq;
+mod gallery;
+mod guild;
+mod guide;
+mod home;
+mod not_found;
+mod recruitment;
+mod security;
+mod start;
+
+pub use academy::AcademyPage;
+pub use faq::FaqPage;
+pub use gallery::GalleryPage;
+pub use guild::GuildPage;
+pub use guide::GuidePage;
+pub use home::HomePage;
+pub use not_found::NotFoundPage;
+pub use recruitment::RecruitmentPage;
+pub use security::SecurityPage;
+pub use start::StartPage;

@@ -1,0 +1,255 @@
+@media (max-width: 1100px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .guide-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .page-banner-grid,
+  .guide-header-grid {
+    grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+  }
+}
+
+@media (max-width: 860px) {
+  .two-column,
+  .page-banner-grid,
+  .guide-header-grid,
+  .recruitment-grid,
+  .security-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-banner-copy {
+    order: 1;
+  }
+
+  .page-banner-media {
+    order: 2;
+    max-height: 420px;
+  }
+
+  .journey-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .rank-grid,
+  .leader-grid,
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guide-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .guide-facts {
+    position: static;
+  }
+
+  .academy-toolbar {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .result-count {
+    grid-column: 1 / -1;
+    margin: 0;
+    text-align: left;
+  }
+
+  .footer-bottom,
+  .official-callout {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    width: min(calc(100% - 1.25rem), var(--container));
+  }
+
+  .header-inner {
+    min-height: 68px;
+  }
+
+  .brand-emblem {
+    width: 46px;
+    height: 46px;
+  }
+
+  .brand-copy strong {
+    font-size: 1.25rem;
+  }
+
+  .brand-copy small {
+    font-size: 0.58rem;
+  }
+
+  .section {
+    padding-block: 4rem;
+  }
+
+  .hero {
+    min-height: calc(100svh - 68px);
+  }
+
+  .hero-media img {
+    object-position: center top;
+  }
+
+  .hero-overlay {
+    background:
+      linear-gradient(0deg, rgba(3, 7, 11, 0.99) 0%, rgba(3, 7, 11, 0.84) 54%, rgba(3, 7, 11, 0.26) 100%),
+      linear-gradient(90deg, rgba(3, 7, 11, 0.75), rgba(3, 7, 11, 0.3));
+  }
+
+  .hero-inner {
+    display: flex;
+    min-height: calc(100svh - 68px);
+    align-items: end;
+    padding-block: 5rem 2.5rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.7rem, 13vw, 4.4rem);
+  }
+
+  .hero-actions,
+  .inline-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-actions .button,
+  .inline-actions .button {
+    width: 100%;
+  }
+
+  .hero-contacts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-contacts span {
+    min-width: 0;
+  }
+
+  .values-grid,
+  .journey-grid,
+  .guide-grid,
+  .academy-toolbar,
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-span-2,
+  .result-count {
+    grid-column: auto;
+  }
+
+  .split-heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .guild-callout-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guild-callout-grid > img {
+    width: min(230px, 70vw);
+    margin-inline: auto;
+  }
+
+  .start-steps li {
+    grid-template-columns: 52px minmax(0, 1fr);
+    padding: 1.1rem;
+  }
+
+  .step-number {
+    width: 46px;
+    height: 46px;
+    font-size: 0.95rem;
+  }
+
+  .rank-card {
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 0.9rem;
+    padding: 1rem;
+  }
+
+  .rank-card img {
+    width: 88px;
+  }
+
+  .leader-card {
+    align-items: flex-start;
+  }
+
+  .leader-card img {
+    width: 78px;
+    height: 78px;
+  }
+
+  .guide-card-body > p {
+    min-height: auto;
+  }
+
+  .prose table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .footer-grid {
+    gap: 2rem;
+    padding-block: 3rem 2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand-copy small {
+    display: none;
+  }
+
+  .hero-contacts {
+    grid-template-columns: 1fr;
+  }
+
+  .rank-card,
+  .leader-card {
+    grid-template-columns: 1fr;
+  }
+
+  .rank-card img,
+  .leader-card img {
+    width: 86px;
+    height: 86px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

@@ -1,0 +1,16 @@
+trunk-version = "^0.21"
+
+[build]
+target = "index.html"
+dist = "dist"
+public_url = "/"
+filehash = true
+
+[watch]
+ignore = ["design", "docs", "skills", "README.md", "AGENTS.md"]
+
+[serve]
+addresses = ["127.0.0.1"]
+disable_address_lookup = true
+port = 8080
+open = false
