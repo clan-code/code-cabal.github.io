@@ -6,8 +6,7 @@ use crate::{
     data::{
         guides::GUIDES,
         site::{
-            GUILD_MANAGER, GUILD_MASTER, JOURNEY, MOTTO, RECRUITMENT_LINE, SITE_SUBTITLE,
-            VALUES,
+            GUILD_MANAGER, GUILD_MASTER, JOURNEY, MOTTO, RECRUITMENT_LINE, SITE_SUBTITLE, VALUES,
         },
     },
 };

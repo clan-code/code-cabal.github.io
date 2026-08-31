@@ -1,10 +1,7 @@
 use leptos::prelude::*;
 use leptos_meta::Title;
 
-use crate::{
-    components::PageBanner,
-    data::faq::FAQ_ITEMS,
-};
+use crate::{components::PageBanner, data::faq::FAQ_ITEMS};
 
 #[component]
 pub fn FaqPage() -> impl IntoView {

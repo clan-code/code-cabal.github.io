@@ -1,8 +1,6 @@
 use leptos::prelude::*;
 
-use crate::data::site::{
-    GUILD_MANAGER, GUILD_MASTER, MOTTO, NAV_ITEMS, SITE_NAME, SITE_SUBTITLE,
-};
+use crate::data::site::{GUILD_MANAGER, GUILD_MASTER, MOTTO, NAV_ITEMS, SITE_NAME, SITE_SUBTITLE};
 
 #[component]
 pub fn SiteHeader() -> impl IntoView {
